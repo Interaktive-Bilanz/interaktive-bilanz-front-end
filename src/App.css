@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* Container covers full screen */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #e5e5e5;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Open Window button */
+.open-button {
+  padding: 8px 12px;
+  margin: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open-button:hover {
+  background: #0056b3;
+}
+
+/* The draggable window */
+.window {
+  border: 1px solid #555;
+  background: white;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title bar */
+.title-bar {
+  background: #333;
+  color: white;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+
+/* Close button */
+.close-button {
+  background: #c0392b;
+  border: none;
+  color: white;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: #e74c3c;
+}
+
+/* Content area */
+.content {
+  padding: 10px;
+}
+

@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Example from './Components/Example';
+import WindowManager from './Components/WindowManager';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Example></Example>
         <Example></Example>
         <Example></Example>
+        <WindowManager></WindowManager>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
